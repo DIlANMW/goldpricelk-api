@@ -32,10 +32,6 @@ curl http://127.0.0.1:3000/api/health
 curl http://127.0.0.1:3000/api/health/ready
 ```
 
-## Configuration
-
-Copy `.env.example` to `.env` and adjust values as needed. The database file is created at `DATABASE_PATH` automatically. The default path is `./data/goldpricelk.db` relative to the working directory.
-
 ## Notes
 
 - CBSL collectors and price API routes are not implemented yet.
