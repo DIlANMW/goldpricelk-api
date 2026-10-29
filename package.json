@@ -12,17 +12,21 @@
   "dependencies": {
     "@types/cheerio": "^0.22.35",
     "axios": "^1.8.4",
+    "axios-cookiejar-support": "^7.0.0",
     "better-sqlite3": "^11.9.1",
     "cheerio": "^1.2.0",
     "cors": "^2.8.5",
     "dotenv": "^16.4.7",
-    "express": "^4.21.2"
+    "express": "^4.21.2",
+    "node-cron": "^4.6.0",
+    "tough-cookie": "^6.0.2"
   },
   "devDependencies": {
     "@types/better-sqlite3": "^7.6.12",
     "@types/cors": "^2.8.17",
     "@types/express": "^5.0.1",
     "@types/node": "^22.13.10",
+    "@types/node-cron": "^3.0.11",
     "tsx": "^4.19.3",
     "typescript": "^5.9.3"
   }
